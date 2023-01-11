@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>World Clock</title>
+  <link rel="stylesheet" href="main.css" />
+  
+</head>
+<body>
+  <div class="app-wrap">
+    <header>
+      <input type="text" autocomplete="off" name="city" id="city" class="search-box" placeholder="Search for a city..." />
+    </header>
+    <main>
+      <section class="location">
+        <div class="city">Welcome, to World Time Clock</div>
+        <div class="date"><script> document.write(new Date().toDateString()); </script></div>
+      </section>
+
+      <div class="current">
+        <div class="temp">World<span>Time</span></div>
+        <div class="weather">Weather</div>
+        <!-- <div class="time">Time</div> -->
+      </div>
+
+      <nav class="navigation_bar">
+      <ul class="nav">     
+        <div class="select"><br>Select a Country</div>
+        <div class="box">
+          <select id="list">
+            <option value="malaysia">Malaysia</option>
+            <option value="newYork">New York (U.S.A)</option>
+            <option value="japan">Japan</option>
+            <option value="uae">United Arab Emirates (U.A.E)</option>
+            <a href="assets\imgs\Resume.pdf" download="Resume">
+              <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button></a>
+          </select>
+        </div>
+        </ul>
+      </nav>
+      
+      <div class="absolute1">Malaysia
+        <iframe src="https://free.timeanddate.com/clock/i8nj1r51/n122/fn17/fs16/fc9ff/tc000/ftb/bat6/bacfff/pa5/tt0/tw1/th1/ta1/tb4" frameborder="0" width="246" height="50"></iframe>
+        <iframe src="https://free.timeanddate.com/clock/i8nj1r51/n122/szw210/szh210/hoc000/hbw2/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="210" height="210"></iframe>
+      </div>
+
+      <div class="absolute2">New York (U.S.A)
+        <iframe src="https://free.timeanddate.com/clock/i8nj1r51/n179/fn17/fs16/fc9ff/tc000/ftb/bat6/bacfff/pa5/tt0/tw1/th1/ta1/tb4" frameborder="0" width="246" height="50"></iframe>
+        <iframe src="https://free.timeanddate.com/clock/i8nj1r51/n179/szw210/szh210/hoc000/hbw2/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="210" height="210"></iframe>
+      </div>
+
+      <div class="absolute3">Japan
+        <iframe src="https://free.timeanddate.com/clock/i8nj1r51/n248/fn17/fs16/fc9ff/tc000/ftb/bat6/bacfff/pa5/tt0/tw1/th1/ta1/tb4" frameborder="0" width="246" height="50"></iframe>
+        <iframe src="https://free.timeanddate.com/clock/i8nj1r51/n248/szw210/szh210/hoc000/hbw2/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="210" height="210"></iframe>
+      </div>
+
+      <div class="absolute4">United Arab Emirates (U.A.E)
+        <iframe src="https://free.timeanddate.com/clock/i8nj1r51/n776/fn17/fs16/fc9ff/tc000/ftb/bat6/bacfff/pa5/tt0/tw1/th1/ta1/tb4" frameborder="0" width="246" height="50"></iframe>
+        <iframe src="https://free.timeanddate.com/clock/i8nj1r51/n179/szw210/szh210/hoc000/hbw2/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="210" height="210"></iframe>
+      </div>
+    </main>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
